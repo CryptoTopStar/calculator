@@ -13,6 +13,7 @@ import isNumber from "./isNumber";
  *   operation:String  +, -, etc.
  */
 export default function calculate(obj, buttonName) {
+  console.log('ok');
   if (buttonName === "AC") {
     return {
       total: null,
